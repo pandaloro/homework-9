@@ -49,7 +49,7 @@ class PostController
             $postModel = new Post();
             $post = $postModel->getAllPosts();//TODO 5-a: get all posts
         }
-
+        echo json_encode($post);
         exit();
     }
 
